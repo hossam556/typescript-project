@@ -1,0 +1,29 @@
+@import "../../assets//styles/main";
+
+.publicLayout-wrapper {
+  background-image: url("../../assets/images/auth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  &_left-content {
+    color: purple;
+    margin-bottom: 20px;
+    h1 {
+      margin: 0;
+      b {
+        text-decoration: underline;
+      }
+    }
+  }
+  //   &_button {
+  //     background-color: green;
+  //     font-size: 14px;
+  //     color: white;
+  //     text-align: center;
+  //     border-radius: 6px;
+  //     padding: 6px 15px;
+  //   }
+}

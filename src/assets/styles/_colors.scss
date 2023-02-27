@@ -1,0 +1,58 @@
+$palettes: (
+  blue: (
+    base: #095d6a,
+    light: #3a9ca9,
+    light1: #67a4ad,
+    ocean: #016877,
+    lighter: #e6eff0,
+    lightest: #cce1e4,
+    hover: #408b96,
+    hover2: #cedfe1,
+    dark: #013e47,
+    darkest: #001518,
+  ),
+  grey: (
+    base: #808080,
+    border: #d0d0d0,
+    text: #979797,
+    mid: #d0d0d0,
+    light: #e0e5e5,
+    lightest: #f5f6f6,
+    dark: #727272,
+    dark1: #7a7f7f,
+    darkest: #2a2a2a,
+    lullaby: #cbd4d4,
+  ),
+  gold: (
+    base: #c4ad62,
+    rich: #c8b273,
+    mate: #c3ad62,
+    lightest: #f4f0e3,
+  ),
+  green: (
+    base: #008000,
+    success: #4db852,
+    successbg: #caeacb,
+  ),
+  red: (
+    base: #ff0000,
+    danger: #eb554e,
+    dangerbg: #fbdddc,
+    dangerbg1: #eb554e0d,
+  ),
+  orange: (
+    base: #ffa500,
+    inactive: #ff9c55,
+    inactivebg: #ffe1cc,
+  ),
+  black: (
+    base: #000000,
+    almost: #001518,
+  ),
+  white: (
+    base: #ffffff,
+  ),
+  transparent: (
+    base: #00000000,
+  ),
+);

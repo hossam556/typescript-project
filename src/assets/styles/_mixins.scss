@@ -1,0 +1,34 @@
+$bold: 'Inter', 'Almarai-bold', sans-serif;
+$extraBold: 'Inter', 'Almarai-extra-bold', sans-serif;
+$regular: 'Inter', 'Almarai', sans-serif;
+$lightFont: 'Inter', 'Almarai-light', sans-serif;
+
+@function palette($palette, $tone: 'base') {
+  @return map-get(map-get($palettes, $palette), $tone);
+}
+
+@mixin setFont($size: 0, $font: 'regular') {
+  @if $size!=0 {
+    font-size: #{$size/16}rem !important;
+  }
+  @if $font == 'light' {
+    font-family: $lightFont !important;
+  }
+  @if $font == 'bold' {
+    font-family: $bold !important;
+  }
+  @if $font == 'bold-extra' {
+    font-family: $extraBold !important;
+  }
+  @if $font == 'regular' {
+    font-family: $regular !important;
+  }
+}
+
+@mixin position($top, $right: $top, $bottom: $top, $left: $right) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
